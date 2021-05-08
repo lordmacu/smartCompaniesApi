@@ -31,6 +31,11 @@ class Processdata extends Controller {
 
         return $getAllControlsByProcessAndSede;
     }
+    
+    public function getLaborData(){
+        $labor= new Labor();
+        return $labor->getAllData();
+    }
 
     public function getProceses() {
         $process = new Process();

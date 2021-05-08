@@ -29,4 +29,5 @@ Route::get('/getEmployee', 'Processdata@getEmployee');
 Route::get('/processEmploys', 'Processdata@processEmploys');
 Route::post('/saveData', 'Processdata@saveData');
 Route::post('/deleteLabor', 'Processdata@deleteLabor');
+Route::post('/deleteLabor', 'Processdata@deleteLabor');
 
